@@ -1,0 +1,168 @@
+.index .weekly-star .bd .list-pic .item .img .text .sex .icon{
+  background: url(../images/icon.png) no-repeat;
+  background-size: 100px;
+}
+.index .slide {
+  background-color: #fafafa;
+  border-bottom: 1px solid #d6d6d6; }
+  .index .slide .slide-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 20px; }
+    .index .slide .slide-wrap .slide-ul {
+      overflow: hidden;
+      position: relative; }
+      .index .slide .slide-wrap .slide-ul .slider-li {
+        float: left;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .index .slide .slide-wrap .slide-ul .slider-li .text {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 25px;
+          width: 100%;
+          line-height: 25px;
+          overflow: hidden;
+          background-color: rgba(0, 0, 0, 0.6);
+          text-align: center;
+          color: #fff;
+          font-size: 14px;
+          padding: 0 10px; }
+    .index .slide .slide-wrap .slide-point {
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: 100%; }
+      .index .slide .slide-wrap .slide-point .icon-point {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin: 0 2px;
+        border-radius: 50%;
+        border: 1px solid #8d8870;
+        background-color: #fff;
+        cursor: pointer; }
+        .index .slide .slide-wrap .slide-point .icon-point.active {
+          background-color: #8d8870; }
+.index .icon-nav {
+  padding: 10px 0;
+  background-color: #fff; }
+  .index .icon-nav .icon-list {
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+    .index .icon-nav .icon-list li {
+      display: table-cell;
+      overflow: hidden;
+      vertical-align: top; }
+    .index .icon-nav .icon-list .icon a {
+      color: #fff;
+      font-size: 17px;
+      display: block;
+      width: 65px;
+      height: 65px;
+      line-height: 65px;
+      text-align: center;
+      margin: auto;
+      border-top-left-radius: 50%;
+      -moz-border-radius-topleft: 50%;
+      -webkit-border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      -moz-border-radius-topright: 50%;
+      -webkit-border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      -moz-border-radius-bottomleft: 50%;
+      -webkit-border-bottom-left: 50%;
+      border-bottom-right-radius: 50%;
+      -moz-border-radius-bottomright: 50%;
+      -webkit-border-bottom-right-radius: 50%; }
+    .index .icon-nav .icon-list .icon:nth-of-type(1) a {
+      background-color: #ed7ec5; }
+    .index .icon-nav .icon-list .icon:nth-of-type(2) a {
+      background-color: #64d3eb; }
+    .index .icon-nav .icon-list .icon:nth-of-type(3) a {
+      background-color: #fe9000; }
+    .index .icon-nav .icon-list .icon:nth-of-type(4) a {
+      background-color: #00c6b1; }
+.index .weekly-star .bd {
+  padding: 10px; }
+  .index .weekly-star .bd .list-pic {
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+    .index .weekly-star .bd .list-pic li {
+      display: table-cell;
+      overflow: hidden;
+      vertical-align: top; }
+    .index .weekly-star .bd .list-pic .item {
+      width: 50%; }
+      .index .weekly-star .bd .list-pic .item:nth-of-type(1) {
+        padding-right: 5px; }
+      .index .weekly-star .bd .list-pic .item:nth-of-type(2) {
+        padding-left: 5px; }
+      .index .weekly-star .bd .list-pic .item .img {
+        display: block;
+        position: relative; }
+        .index .weekly-star .bd .list-pic .item .img .text {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 25px;
+          line-height: 19px;
+          padding: 3px;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.5); }
+          .index .weekly-star .bd .list-pic .item .img .text .name{
+            color: #fff;
+          }
+          .index .weekly-star .bd .list-pic .item .img .text .age {
+            color: #fff;
+            margin-left: 3px; }
+          .index .weekly-star .bd .list-pic .item .img .text .kwame {
+            position: absolute;
+            right: 3px;
+            top: 3px;
+            width: 19px;
+            height: 19px;
+            line-height: 19px;
+            background-color: #06a0e4;
+            color: #fff;
+            border-top-left-radius: 2px;
+            -moz-border-radius-topleft: 2px;
+            -webkit-border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            -moz-border-radius-topright: 2px;
+            -webkit-border-top-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+            -moz-border-radius-bottomleft: 2px;
+            -webkit-border-bottom-left: 2px;
+            border-bottom-right-radius: 2px;
+            -moz-border-radius-bottomright: 2px;
+            -webkit-border-bottom-right-radius: 2px;
+            text-align: center; }
+          .index .weekly-star .bd .list-pic .item .img .text .sex {
+            position: absolute;
+            right: 30px;
+            top: 3px;
+            width: 20px;
+            height: 20px; }
+            .index .weekly-star .bd .list-pic .item .img .text .sex .icon {
+              display: inline-block;
+              width: 20px;
+              height: 20px; 
+            }
+              .index .weekly-star .bd .list-pic .item .img .text .sex .icon.girl {
+                background-position: 0 0; }
+              .index .weekly-star .bd .list-pic .item .img .text .sex .icon.boy {
+                background-position: -20px 0; }
+
+

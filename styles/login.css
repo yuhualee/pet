@@ -1,0 +1,42 @@
+.login-page .additional {
+  padding: 0 20px; }
+  .login-page .additional a {
+    color: #808080;
+    font-size: 14px; }
+.login-page .third-party {
+  margin-top: 40px;  
+}
+  .login-page .third-party h4 {
+    text-align: center;
+    color: #808080;
+    font-size: 16px;
+    font-weight: normal; }
+  .login-page .third-party .account {
+    margin-top: 35px;
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+    .login-page .third-party .account li {
+      display: table-cell;
+      overflow: hidden;
+      vertical-align: top; }
+    .login-page .third-party .account li {
+      vertical-align: middle;
+      text-align: center; }
+      .login-page .third-party .account li .icon {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        background: #fff url(../images/pay-logo.png) no-repeat;
+        background-size: 80px;
+        border: 1px solid #d6d6d6;
+        border-radius: 50%; }
+      .login-page .third-party .account li.alipay .icon {
+        background-position: -3px -87px; }
+      .login-page .third-party .account li.wechat .icon {
+        background-position: 0 0;
+        width: 88px;
+        height: 88px;
+        background-size: 80px; }
+      .login-page .third-party .account li.sina .icon {
+        background-position: -7px -168px; }

@@ -1,0 +1,56 @@
+.register-page .bd .guide {
+  padding: 20px 5px 15px; }
+  .register-page .bd .guide ul li {
+    font-size: 14px;
+    float: left;
+    display: inline;
+    text-align: center;
+    color: #999; }
+    .register-page .bd .guide ul li a {
+      color: #999; }
+      .register-page .bd .guide ul li a .icon {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        line-height: 15px;
+        text-align: center;
+        border: 1px solid #d6d6d6;
+        border-radius: 50%;
+        margin-right: 5px; }
+    .register-page .bd .guide ul li.one, .register-page .bd .guide ul li.two, .register-page .bd .guide ul li.three {
+      width: 30%; }
+    .register-page .bd .guide ul li.interval {
+      width: 5%;
+      height: 15px;
+      position: relative; }
+      .register-page .bd .guide ul li.interval:after {
+        position: absolute;
+        top: 4px;
+        left: 50%;
+        margin-left: -8px;
+        content: "";
+        display: block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #808080;
+        border-top-color: #fafafa;
+        border-right-color: #fafafa;
+        background-color: #fafafa;
+        -webkit-transform: rotate(-135deg);
+        transform: rotate(-135deg); }
+    .register-page .bd .guide ul li.active {
+      color: #ff7396; }
+      .register-page .bd .guide ul li.active .icon {
+        border-color: #ff7396; }
+  .register-page .bd .guide .tip {
+    margin-top: 20px;
+    padding: 0 15px; }
+    .register-page .bd .guide .tip p {
+      font-size: 12px;
+      color: #999;
+      line-height: 15px; }
+.register-page .additional a {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  color: #808080; }

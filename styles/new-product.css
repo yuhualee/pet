@@ -1,0 +1,32 @@
+.new-product .bd{
+	padding: 10px;
+}
+.new-product .bd .imgbox{
+	display: block;
+	position: relative;
+}
+.new-product .bd .imgbox .price{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 90px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.7);
+	padding: 0 10px;
+}
+.new-product .bd h3{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.new-product .bd .part{
+	font-size: 15px;
+	color: #666;
+	line-height: 20px;
+	margin-top: 5px;
+}

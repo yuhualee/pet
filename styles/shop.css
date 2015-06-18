@@ -1,0 +1,17 @@
+.shop figure img{
+	display: block;
+}
+.shop figcaption{
+	padding: 5px 0;
+}
+.shop .map p{
+	color: #333;
+	line-height: 20px;
+}
+.shop .bd{
+	background-color: #fff;
+	padding: 10px;
+}
+.shop .shop-envi figcaption{
+	text-align: center;
+}

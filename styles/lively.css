@@ -1,0 +1,82 @@
+.lively-page .user{
+	background-color: #0b98d6;
+	color: #fff;
+	height: 200px;
+	padding: 10px;
+	position: relative;
+}
+.lively-page .user a{
+	color: #fff;
+}
+.lively-page .user .modify{
+	float: left;
+	line-height: 20px;
+}
+.lively-page .user .setup{
+	float: right;
+	line-height: 20px;
+}
+.lively-page .user .modify .icon,.lively-page .user .setup .icon{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100px;
+	margin-right: 5px;
+}
+.lively-page .user .modify .icon{
+	background-position: -40px 0;
+}
+.lively-page .user .setup .icon{
+	background-position: -60px 0;
+}
+.lively-page .user .box{
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -60px;
+	width: 120px;
+	overflow: hidden;
+}
+.lively-page .user .avatar{
+	display: block;
+	background-color: #afe7ff;
+	width: 120px;
+	height: 120px;
+	line-height: 100px;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 50%;
+	overflow: hidden;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+.lively-page .user .avatar .add{
+	color: #fff;
+}
+.lively-page .user .avatar input[type=file]{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 100px;
+	opacity: 0;
+}
+.lively-page .user .box p{
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+}
+.lively-page .nav-list{
+	margin-top: 10px;
+	background-color: #fff;
+	border-top: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+}
+.lively-page .nav-list .item{
+	text-align: center;
+}
+.lively-page{}
+.lively-page{}
+.lively-page{}
+.lively-page{}

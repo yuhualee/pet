@@ -1,0 +1,10 @@
+.article-page .todays .bd{
+	padding: 10px;
+	background-color: #fff;
+}
+.article-page .todays .bd figcaption{
+	margin-bottom: 10px;
+}
+.article-page .today-news{
+	border-bottom: 1px solid #d6d6d6;
+}

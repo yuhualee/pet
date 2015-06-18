@@ -1,0 +1,142 @@
+.add-pet .box{
+	background-color: #0b98d6;
+	color: #fff;
+	height: 160px;
+	padding: 10px;
+	position: relative;
+}
+.add-pet .avatar{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -60px;
+	overflow: hidden;
+	background-color: #afe7ff;
+	width: 120px;
+	height: 120px;
+	line-height: 100px;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 50%;
+	font-weight: 200;
+}
+.add-pet .box .avatar .add{
+	color: #fff;
+}
+.add-pet .box .avatar input[type=file]{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 100px;
+	opacity: 0;
+}
+.pet-info{
+	margin-bottom: 15px;
+}
+.pet-info h2{
+	height: 37px;
+	line-height: 37px;
+	font-size: 18px;
+	color: #999;
+	font-weight: normal;
+	padding: 0 10px;
+}
+.pet-info ul{
+	margin: 0 5px;
+}
+.pet-info .item{
+	float: left;
+	width: 50%;
+	padding: 0 5px 10px;
+}
+.pet-info .item span{
+	border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    float: left;
+    height: 75px;
+    line-height: 73px;
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    padding-left: 60%;
+}
+.pet-info .item span .icon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -60px;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.pet-info .item span .dog{
+	background-image: url(../images/dog.png);
+}
+.pet-info .item span .cat{
+	background-image: url(../images/cat.png);
+}
+.pet-info .item .checked{
+	border-color: #06a0e4;
+    overflow: hidden;
+    position: relative; 
+}
+.pet-info .item .checked:after{
+	content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 0 -165px;
+}
+.pet-info .list{
+	border-top: 1px solid #d6d6d6;
+}
+.pet-info .list .li{
+	height: 44px;
+	line-height: 30px;
+	border-bottom: 1px solid #d6d6d6;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 6px 10px;
+	font-size: 18px;
+	position: relative;
+}
+.list .li a:after{
+	position: absolute;
+	top: 14px;
+	right: 10px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #ccc;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	background-color: transparent;
+	-webkit-transform: rotate(225deg);
+	transform: rotate(225deg); 
+}
+.pet-info .list .form .label{
+	float: left;
+}
+.pet-info .list .form input{
+	float: left;
+	margin-left: 10px;
+	width: 75%;
+	height: 30px;
+	padding: 5px;
+	line-height: 20px;
+	font-size: 16px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+.add-pet .padding{
+	padding: 0 10px;
+}

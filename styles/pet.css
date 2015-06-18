@@ -1,0 +1,44 @@
+
+.pet-page{
+	background-color: #f0f2f5;
+}
+.pet-page figure{
+	padding: 10px;
+}
+.pet-page figure .img{
+	display: block;
+	position: relative;
+}
+.pet-page figure .img .like{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	overflow: hidden;
+}
+.pet-page figure .img .like .icon{
+	float: left;
+	width: 35px;
+	height: 25px;
+	background-image: url(../images/icon.png);
+	  background-repeat: no-repeat;
+	  background-size: 100px;
+	background-position: -25px -110px;
+	vertical-align: bottom;
+}
+.pet-page figure .img .like .number{
+	padding-top: 10px;
+	line-height: 15px;
+	color: #ff7396;
+	font-size: 15px;
+}
+.pet-page figure figcaption{
+	font-size: 15px;
+	color: #333;
+	line-height: 20px;
+	padding-top: 10px;
+}
+.pet-page .comment .item{
+	margin-bottom: 10px;
+	border-top: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+}
