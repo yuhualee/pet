@@ -47,4 +47,46 @@
 	};
 })();
 
+// select-time
+;(function(){
+	var $len = $('.select-time .slider .item').length;
+	var $sliderW = $('.select-time .slider').width();
+	console.log($sliderW);
+	var $ul = $('.select-time .slider ul');
+	var $prev = $('.select-time .prev');
+	var $next = $('.select-time .next');
+	var $left = 0;
+	var $ulW = 65 * $len;
+	$ul.width($ulW + 'px');
+	$prev.on('tap',function(){
+		$left = parseInt($ul.css('left'));
+		if($ulW + $left <= $sliderW){
+			$prev.addClass('disable');
+			return false;
+		}else{
+			go(-1);
+		}
+	});
+	$next.on('tap',function(){
+		$left = parseInt($ul.css('left'));
+		if($left >= 0){
+			$next.addClass('disable');
+		}else{
+			go(+1);
+		}
+	});
+	function go(number){
+		$left += number * 65;
+		if($left >= 0){
+			$next.addClass('disable');
+		}else if($ulW + $left <= $sliderW){
+			$prev.addClass('disable');
+		}else{
+			$next.removeClass('disable');
+			$prev.removeClass('disable');
+		}
+		$ul.css('left',$left + 'px');
+	}
+})();
+
 

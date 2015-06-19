@@ -1,0 +1,53 @@
+.order-form .form-list{}
+.order-form .form-list li{
+	padding: 7px 10px;
+	height: 45px;
+	border-bottom: 1px solid #d6d6d6;
+	line-height: 30px;
+}
+.order-form .form-list .item .red-color{
+	font-weight: normal;
+	margin: 0 3px;
+	color: #ff7396;
+}
+.order-form .form-list .item-input{
+	padding-left: 80px;
+}
+.order-form .form-list .item-input .label{
+	float: left;
+	width: 60px;
+	margin-left: -70px;
+	line-height: 30px;
+	font-size: 18px;
+}
+.order-form .form-list .item-input input{
+	width: 70%;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 5px;
+	height: 30px;
+	line-height: 20px;
+}
+.order-form .form-list .item-title{
+	padding: 10px;
+	height: 51px;
+	font-size: 18px;
+}
+.order-form .form-list .item-opr{
+	position: relative;
+	padding-right: 40px;
+}
+.order-form .form-list .item-opr .edit{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -12px;
+	width: 30px;
+	height: 25px;
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100px;
+	background-position: -60px -181px;
+}
+.order-form{}
+.order-form{}
+.order-form{}

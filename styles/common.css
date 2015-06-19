@@ -255,6 +255,8 @@ header.hd {
     position: relative;
     background-color: #fff;
     min-height: 75px;
+    display: table;
+    width: 100%;
   }
   .list.list-avatar .item .avatar{
     float: left;
@@ -271,6 +273,8 @@ header.hd {
   }
   .list.list-avatar .item p{
     line-height: 25px;
+    display: table-cell;
+    vertical-align: middle;
   }
 
 

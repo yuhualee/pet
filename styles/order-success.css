@@ -1,0 +1,11 @@
+.order-success .bd{
+	padding: 30px;
+}
+.order-success .bd img{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.order-success .bd p{
+	font-size: 18px;
+	margin-top: 20px;
+}
